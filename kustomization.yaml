@@ -1,0 +1,21 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - river-xaod-values.yaml
+  - servicex-base.yaml
+  - river_xaod_sealed_secrets.yaml
+
+secretGenerator:
+  - name: servicex-postgresql-secret
+    namespace: servicex-testing-1
+    type: Opaque
+    
+configMapGenerator:
+  - name: servicex-helm-config
+    namespace: servicex-testing-1
+    files:
+      - river-xaod-values.yaml
+
+configurations:
+  - kustomizeconfig.yaml
