@@ -5,9 +5,6 @@ app:
   pullPolicy: Always
   auth: true
   replicas: 1
-  newSignupWebhook: https://hooks.slack.com/services/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
-
-  # Mailgun configuration
   mailgunDomain: servicex.ssl-hep.org
 
   ingress:
