@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
-  name: servicex
+  name: servicex-repo
   namespace: servicex-testing-1
 spec:
   interval: 30s
