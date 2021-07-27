@@ -6,7 +6,7 @@ resources:
   - river_xaod_sealed_secrets.yaml
 
 secretGenerator:
-  - name: servicex-postgresql-secret
+  - name: servicex-secrets
     namespace: servicex-testing-1
     type: Opaque
     
