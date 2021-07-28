@@ -6,14 +6,14 @@ metadata:
   namespace: servicex-testing-1
 spec:
   releaseName: servicex
-  serviceAccountName: flux-testing
+  serviceAccountName: servicex-testing-1
   chart:
     spec:
       chart: servicex
       sourceRef:
         kind: HelmRepository
         name: servicex-repo
-      version: 1.0.11
+      version: '1.0.11'
   interval: 1m
   values:
     app:
