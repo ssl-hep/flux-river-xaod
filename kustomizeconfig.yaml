@@ -6,6 +6,7 @@ metadata:
   namespace: servicex-testing-1
 spec:
   interval: 1m
+  releaseName: servicex
   serviceAccountName: servicex-testing-1
   chart:
     spec:
@@ -18,8 +19,6 @@ spec:
       interval: 1m
   values:
     replicaCount: 1
-    apiService:
-      create: true
   valuesFrom:
     - kind: Secret
       metadata:
