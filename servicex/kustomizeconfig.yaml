@@ -6,7 +6,6 @@ metadata:
   namespace: servicex-testing-1
 spec:
   interval: 1m
-  releaseName: servicex
   serviceAccountName: servicex-testing-1
   chart:
     spec:
@@ -50,4 +49,3 @@ spec:
       name: servicex-secrets
       key: minio.secretkey
       targetPath: app.minio_secretkey
-

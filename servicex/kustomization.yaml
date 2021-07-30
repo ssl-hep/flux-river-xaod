@@ -1,3 +1,4 @@
+---
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
@@ -9,7 +10,7 @@ secretGenerator:
   - name: servicex-secrets
     namespace: servicex-testing-1
     type: Opaque
-    
+
 configMapGenerator:
   - name: servicex-helm-config
     namespace: servicex-testing-1
