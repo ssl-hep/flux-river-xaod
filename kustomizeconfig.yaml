@@ -1,14 +1,15 @@
+---
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
   name: servicex-release
   namespace: servicex-testing-1
 spec:
-  interval: 5m
+  interval: 1m
   serviceAccountName: servicex-testing-1
   chart:
     spec:
-      chart: ssl-hep/servicex
+      chart: servicex
       version: '1.0.11'
       sourceRef:
         kind: HelmRepository
@@ -17,6 +18,8 @@ spec:
       interval: 1m
   values:
     replicaCount: 1
+    apiService:
+      create: true
   valuesFrom:
     - kind: Secret
       metadata:
