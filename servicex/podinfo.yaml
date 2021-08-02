@@ -5,6 +5,7 @@ metadata:
   name: podinfo
   namespace: servicex-testing-1
 spec:
+  namespace: servicex-testing-1
   interval: 30s
   ref:
     branch: master
