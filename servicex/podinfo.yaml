@@ -9,7 +9,7 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/stefanprodan/podinfo
+  url: https://github.com/sthapa/podinfo
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
 kind: Kustomization
