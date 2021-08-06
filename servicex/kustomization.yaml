@@ -5,7 +5,6 @@ kind: Kustomization
 resources:
   - servicex-repository.yaml
   - river-xaod-sealed-secrets.yaml
-  - testpod.yaml
 
 secretGenerator:
   - name: servicex-secrets
