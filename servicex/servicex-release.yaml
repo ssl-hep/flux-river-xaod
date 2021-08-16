@@ -9,7 +9,7 @@ spec:
   serviceAccountName: servicex-testing-1
   chart:
     spec:
-      chart: ssl-hep/servicex
+      chart: servicex
       version: '1.0.12'
       sourceRef:
         kind: HelmRepository
