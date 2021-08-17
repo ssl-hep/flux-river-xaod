@@ -24,7 +24,7 @@ objectStore:
   enabled: true
   publicURL: xaod-minio.servicex.ssl-hep.org
 
-gridAccount: bgalewsk
+gridAccount: ivukotic
 
 minio:
   ingress:
