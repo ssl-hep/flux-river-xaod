@@ -5,5 +5,4 @@ metadata:
   name: servicex-testing-1
   namespace: servicex-testing-1
 spec:
-  path: ./dummy
-
+  path: ./servicex
