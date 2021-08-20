@@ -88,12 +88,12 @@ spec:
           enabled: true
           honorLabels: false
           interval: 30s
-        persistence:
-          enabled: true
-          storageClass: rook-ceph-block
-        auth:
-          existingErlangSecret: servicex-release-rabbitmq
-          existingPasswordSecret: servicex-release-rabbitmq
+      persistence:
+        enabled: true
+        storageClass: rook-ceph-block
+      auth:
+        existingErlangSecret: servicex-release-rabbitmq
+        existingPasswordSecret: servicex-release-rabbitmq
 
     transformer:
       autoscaler:
