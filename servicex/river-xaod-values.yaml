@@ -4,6 +4,7 @@ app:
   auth: true
   replicas: 1
   mailgunDomain: servicex.ssl-hep.org
+  gridAccount: ivukotic
 
   ingress:
     enabled: true
@@ -24,7 +25,6 @@ objectStore:
   enabled: true
   publicURL: xaod-minio.servicex.ssl-hep.org
 
-gridAccount: ivukotic
 
 minio:
   ingress:
