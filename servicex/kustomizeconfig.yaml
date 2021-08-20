@@ -41,12 +41,6 @@ spec:
       metadata:
         namespace: servicex-testing-1
       name: servicex-secrets
-      key: rabbitmq-erlang-cookie
-      targetPath: app.existingErlangSecret
-    - kind: Secret
-      metadata:
-        namespace: servicex-testing-1
-      name: servicex-secrets
       key: rabbitmq-password
       targetPath: app.existingPasswordSecret
     - kind: Secret
