@@ -16,7 +16,6 @@ spec:
       version: '1.0.8-0'
   interval: 1m
   values:
-    gridAccount: ivukotic
     app:
       adminEmail: bengal1@illinois.edu
       pullPolicy: Always
@@ -103,3 +102,6 @@ spec:
         maxReplicas: 750
       pullPolicy: Always
       defaultTransformerImage: sslhep/servicex_func_adl_xaod_transformer:develop
+
+    grid/ccount: ivukotic
+    rbacEnabled: true
