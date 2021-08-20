@@ -74,8 +74,8 @@ rabbitmq:
       enabled: true
       storageClass: rook-ceph-block
     auth:
-      existingErlangSecret: xaod-servicex-secrets
-      erlangCookie: xaod-servicex-secrets
+      existingErlangSecret: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
+      erlangCookie: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
       password: xaod-servicex-secrets
 transformer:
   autoscaler:
