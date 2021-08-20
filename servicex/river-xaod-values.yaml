@@ -77,8 +77,6 @@ rabbitmq:
       existingErlangSecret: xaod-servicex-secrets
       erlangCookie: xaod-servicex-secrets
       password: xaod-servicex-secrets
-
-
 transformer:
   autoscaler:
     enabled: true
