@@ -2,17 +2,16 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: servicex
+  name: servicex-release
   namespace: servicex-testing-1
 spec:
-  releaseName: servicex
-  serviceAccountName: flux-testing
+  serviceAccountName: servicex-testing-1
   chart:
     spec:
       chart: servicex
       sourceRef:
         kind: HelmRepository
-        name: servicex  
+        name: servicex-repo
       version: '1.0.8-0'
   interval: 1m
   values:
