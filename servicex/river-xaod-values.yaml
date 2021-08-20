@@ -1,10 +1,10 @@
+gridAccount: ivukotic
 app:
   adminEmail: bengal1@illinois.edu
   pullPolicy: Always
   auth: true
   replicas: 1
   mailgunDomain: servicex.ssl-hep.org
-  gridAccount: ivukotic
 
   ingress:
     enabled: true
