@@ -30,6 +30,12 @@ spec:
         namespace: servicex-testing-1
       name: servicex-secrets
       key: rabbitmq-erlang-cookie
+      targetPath: app.rabbitmq.auth.erlangCookie
+    - kind: Secret
+      metadata:
+        namespace: servicex-testing-1
+      name: servicex-secrets
+      key: rabbitmq-erlang-cookie
       targetPath: app.rabbitmq_erlang_cookie
     - kind: Secret
       metadata:
