@@ -74,10 +74,10 @@ rabbitmq:
       enabled: true
       storageClass: rook-ceph-block
     auth:
-      existingErlangSecret: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
-      erlangCookie: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
-      password: bGVmdGZvb3QxCg==
-      existingPasswordSecret: bGVmdGZvb3QxCg==
+      existingErlangSecret: servicex-release-rabbitmq
+      erlangCookie: servicex-release-rabbitmq
+      password: servicex-release-rabbitmq
+      existingPasswordSecret: servicex-release-rabbitmq
 
 transformer:
   autoscaler:

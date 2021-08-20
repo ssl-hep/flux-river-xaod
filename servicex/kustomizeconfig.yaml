@@ -37,3 +37,16 @@ spec:
       name: servicex-secrets
       key: minio.secretkey
       targetPath: app.minio_secretkey
+    - kind: Secret
+      metadata:
+        namespace: servicex-testing-1
+      name: servicex-rabbitmq-secret
+      key: rabbitmq-erlang-cookie
+      targetPath: app.rabbitmq_erlang_cookie
+    - kind: Secret
+      metadata:
+        namespace: servicex-testing-1
+      name: servicex-rabbitmq-secret
+      key: rabbitmq-password
+      targetPath: app.rabbitmq_password
+        
