@@ -76,7 +76,7 @@ rabbitmq:
     auth:
       existingErlangSecret: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
       erlangCookie: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
-      password: xaod-servicex-secrets
+      password: bGVmdGZvb3QxCg==
 transformer:
   autoscaler:
     enabled: true
