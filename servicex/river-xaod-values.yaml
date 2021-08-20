@@ -77,6 +77,8 @@ rabbitmq:
       existingErlangSecret: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
       erlangCookie: THBYZm1hQUxTcWI5cGgxUDVTYXNVZGlHbFhGN1B5QkoK
       password: bGVmdGZvb3QxCg==
+      existingPasswordSecret: bGVmdGZvb3QxCg==
+
 transformer:
   autoscaler:
     enabled: true
