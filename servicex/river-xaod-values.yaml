@@ -75,8 +75,6 @@ rabbitmq:
       storageClass: rook-ceph-block
     auth:
       existingErlangSecret: servicex-release-rabbitmq
-      erlangCookie: servicex-release-rabbitmq
-      password: servicex-release-rabbitmq
       existingPasswordSecret: servicex-release-rabbitmq
 
 transformer:
