@@ -5,6 +5,7 @@ metadata:
   name: servicex-release
   namespace: servicex-testing-1
 spec:
+  releaseName: servicex-release
   serviceAccountName: servicex-testing-1
   chart:
     spec:

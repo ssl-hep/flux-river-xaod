@@ -12,11 +12,13 @@ secretGenerator:
     namespace: servicex-testing-1
     type: Opaque
 
-configMapGenerator:
-  - name: servicex-helm-config
-    namespace: servicex-testing-1
-    files:
-      - river-xaod-values.yaml
+resources:
+  - river-xaod-values.yaml
+    #configMapGenerator:
+    #  - name: servicex-helm-config
+    #    namespace: servicex-testing-1
+    #    files:
+    #      - river-xaod-values.yaml
 
 configurations:
   - kustomizeconfig.yaml
