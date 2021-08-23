@@ -13,7 +13,8 @@ secretGenerator:
     type: Opaque
 
 resources:
-  - river-xaod-values.yaml
+  - values.yaml
+  #- river-xaod-values.yaml
     #configMapGenerator:
     #  - name: servicex-helm-config
     #    namespace: servicex-testing-1
